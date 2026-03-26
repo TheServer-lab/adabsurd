@@ -6,7 +6,7 @@
       const tone = el.dataset.tone || "corporate";
       const chaos = el.dataset.chaos || "50";
 
-      fetch(`https://https://web-production-ee380.up.railway.app/ad?tone=${tone}&chaos=${chaos}`)
+      fetch(`https://web-production-ee380.up.railway.app/ad?tone=${tone}&chaos=${chaos}`)
         .then(res => res.json())
         .then(ad => {
           el.innerHTML = `

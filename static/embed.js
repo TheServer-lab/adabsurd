@@ -15,7 +15,7 @@
 
       const size = sizes[format] || sizes["300x250"];
 
-      fetch(`https://YOUR-RAILWAY-URL/ad?tone=${tone}&chaos=${chaos}&format=${format}`)
+      fetch(`https://web-production-ee380.up.railway.app/ad?tone=${tone}&chaos=${chaos}`)
         .then(res => res.json())
         .then(ad => {
 
